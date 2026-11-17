@@ -1,0 +1,22 @@
+project_name: employability-mapping
+app_title: NLP-Driven Regional Employability Mapping
+data_description: |
+  The public demo uses synthetic student profiles and generic job descriptions only.
+  Real student records and locally generated models are not included in the public repository.
+  For private data, set EMPLOYABILITY_PROCESSED_DATA_DIR to an approved processed-data directory.
+weights:
+  role_skill_match: 0.35
+  cgpa: 0.20
+  internship: 0.15
+  projects: 0.10
+  certifications: 0.08
+  hackathons: 0.05
+  github: 0.04
+  communication: 0.03
+  backlog_penalty: 0.10
+  embedding_similarity: 0.5
+  skill_overlap: 0.5
+random_state: 42
+matching:
+  top_k: 3
+  embedding_model: all-MiniLM-L6-v2

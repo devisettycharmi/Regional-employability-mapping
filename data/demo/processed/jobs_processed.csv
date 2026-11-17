@@ -1,0 +1,5 @@
+job_id,role,domain,job_description,required_skills,good_to_have_skills,experience_level
+DEMO-J01,Software Developer,Software Engineering,"Build and maintain web applications and backend services using common software development practices.","python;javascript;sql;git;docker","html;rest api;testing",Entry level
+DEMO-J02,Data Analyst,Data and Analytics,"Prepare, analyze, and communicate insights from structured data using queries and visualization tools.","python;sql;excel;statistics;power bi","tableau;pandas;data visualization",Entry level
+DEMO-J03,Machine Learning Engineer,Artificial Intelligence,"Develop and evaluate machine learning workflows, including data preparation, model validation, and deployment.","python;machine learning;scikit-learn;pytorch;docker","sql;statistics;git",Entry level
+DEMO-J04,Cybersecurity Analyst,Cybersecurity,"Review security signals, investigate incidents, and support secure configuration of systems and networks.","linux;networking;siem;incident response;python","cloud security;log analysis;git",Entry level

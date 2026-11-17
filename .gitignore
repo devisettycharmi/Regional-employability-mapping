@@ -1,0 +1,18 @@
+# Local data may contain personal or otherwise unpublished records.
+/data/raw/
+/data/processed/
+
+# Generated artifacts can encode information from the local dataset.
+/models/
+/reports/
+/data/geo/
+
+# Python and local environment files.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
